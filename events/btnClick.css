@@ -1,0 +1,50 @@
+#div{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    position: relative;
+
+}
+#inc{
+    position: absolute;
+    top:10%;
+    left: 60%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+}
+#dec{
+    position: absolute;
+    top:10%;
+    left: 40%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+}
+#changeTxt{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+}
+#bgButton{
+    position: absolute;
+    top:70%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+}
+.small{
+    position: absolute;
+    top:80%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+}
+.big{
+    position: absolute;
+    top:80%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+}
+
