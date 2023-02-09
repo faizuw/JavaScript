@@ -14,3 +14,5 @@ var car = {
 console.log(car.name);
 console.log(car.manufacturer);
 console.log(car.applyBrakes());
+
+console.log(JSON.stringify(car));
