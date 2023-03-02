@@ -62,3 +62,60 @@ console.log(myfullName);
 var inc = 120;
 
 console.log(inc);
+
+// program to take input from user as character and display whether it is a consonent and vowel
+
+// var char = window.prompt("Enter a character: ");
+
+// switch (char) {
+//   case "a":
+//   case "A":
+//     document.write("The character you have entered is a vowel");
+//     break;
+//   case "e":
+//   case "E":
+//     document.write("The character you have entered is a vowel");
+//     break;
+//   case "i":
+//   case "I":
+//     document.write("The character you have entered is a vowel");
+//     break;
+//   case "o":
+//   case "O":
+//     document.write("The character you have entered is a vowel");
+//     break;
+//   case "u":
+//   case "U":
+//     document.write("The character you have entered is a vowel");
+//     break;
+//   default:
+//     document.write("The character you have entered is a consonunt");
+// }
+
+// var a = window.prompt("Enter first number");
+// var b = window.prompt("Enter second number");
+// function arithmetic(x, y) {
+//   var add = x + y;
+//   var sub = x - y;
+//   var mul = x * y;
+//   var div = x / y;
+//   document.write(`The addition is :${add}`);
+//   document.write("<br/>");
+//   document.write(`The subtraction is :${sub}`);
+//   document.write("<br/>");
+//   document.write(`The multiplication is :${mul}`);
+//   document.write("<br/>");
+//   document.write(`The division is :${div}`);
+//   document.write("<br/>");
+// }
+
+// arithmetic(parseInt(a), parseInt(b));
+
+var mul = window.prompt("Enter the number");
+function table(a) {
+  for (let i = 1; i <= 10; i++) {
+    document.write(`${a} * ${i} = ${a * i} `);
+    document.write("<br/>");
+  }
+}
+table(mul);
